@@ -8,7 +8,9 @@
 
 .reveal-viewport {
 	@include bodyBackground();
-	background-color: $backgroundColor;
+	background-image: url('http://getwallpapers.com/wallpaper/full/d/a/8/901159-background-for-computer-3840x2160-ipad-retina.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .reveal {

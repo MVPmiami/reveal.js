@@ -56,6 +56,130 @@
 	justify-content: center;
 }
 
+.box{
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-advantages{
+	width: 800px;
+	height: 250px;
+	background-image: url('../assets/whyLodash.png');
+	background-size: 140%;
+	background-repeat: no-repeat;
+}
+
+.methods{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.methods-img{
+	margin-left: 100px;
+	width: 150px;
+	height: 600px;
+	background-image: url('../assets/methods.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.for-each{
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.each-1{
+	width: 452px;
+	height: 387px;
+	background-image: url('../assets/forEach1screen.png');
+	background-size: 320%;
+	background-repeat: no-repeat;
+}
+
+.each-2{
+	width: 750px;
+	height: 385px;
+	background-image: url('../assets/forEach2screen.png');
+	background-size: 175%;
+	background-repeat: no-repeat;
+}
+
+.map {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.map-1{
+	width: 835px;
+	height: 463px;
+	background-image: url('../assets/map-1.png');
+	background-size: 153%;
+	background-repeat: no-repeat;
+}
+
+.map-2{
+	width: 775px;
+	height: 232px;
+	background-image: url('../assets/map-2.png');
+	background-size: 223%;
+	background-repeat: no-repeat;
+}
+
+.filter{
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.filter-1{
+	width: 775px;
+	height: 430px;
+	background-image: url('../assets/filter-1.png');
+	background-size: 184%;
+	background-repeat: no-repeat;
+}
+
+.filter-2 {
+	width: 700px;
+	height: 388px;
+	background-image: url('../assets/filter-2.png');
+	background-size: 204%;
+	background-repeat: no-repeat;
+}
+
+.filter-3{
+	width: 700px;
+	height: 254px;
+	background-image: url('../assets/filter-3.png');
+	background-size: 204%;
+	background-repeat: no-repeat;
+}
+
+.sortBy-1{
+	width: 690px;
+	height: 391px;
+	background-image: url('../assets/sortBy-1.png');
+	background-size: 173%;
+	background-repeat: no-repeat;
+}
+
+.groupBy-1{
+	width: 720px;
+	height: 321px;
+	background-image: url('../assets/groupBy-1.png');
+	background-size: 140%;
+	background-repeat: no-repeat;
+}
+
+
 // Naming based on tailwindcss
 .reveal .items-stretch { align-items: stretch; }
 .reveal .items-start { align-items: flex-start; }
